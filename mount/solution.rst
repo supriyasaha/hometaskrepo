@@ -41,25 +41,4 @@ s.close() #closes the file /proc/mounts
 
 hence the code is:
 
-#!/usr/bin/env python
-s=open("/proc/mounts")
-
-f=s.read()
-z=f.split("\n")
-p=len(z)
-i=1
-while i < p:
-
-        a=z[i].split(" ")
-        a.insert(1," on ")
-        a.insert(3," type ")
-        a.insert(5," (")
-        a.insert(7,")")
-        del a[-2]
-        del a[-1]
-        str="".join(a)
-        print str
-        i+=1
-
-s.close()
-
+https://github.com/supriyasaha/hometaskrepo/blob/master/mount/mount.py
