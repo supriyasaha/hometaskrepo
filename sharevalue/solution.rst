@@ -1,8 +1,7 @@
 CODE TO THE PROGRAM
---------------------
+----------------------
+ the program is based on rinting the current shrevalue of the nsdaq 
 
-
-.. code:: python
 
 #!/usr/bin/env python
 
@@ -19,11 +18,18 @@ this function will get the share value of nasdaq
         print "the cureent sharevalue is %s" % (val)
 
 if __name__ == '__main__': #it recieves the desire coed and calls tha funtion to geth the current sharevalu
+
     if len(sys.argv) == 2: #condition to check whter the file name in the command line does not exceed two
+
+it will check for the number of arguments in command line with ./shareval.py
+
       get_value(sys.argv[1]) #passe the nasdaq to the main user
-    else:
+    
+else:
+
       print "Give only one NASDAQ symbol at a time after command line argument!"
-    sys.exit(0)
+    
+sys.exit(0)
 
 
 
