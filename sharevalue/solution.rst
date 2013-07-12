@@ -26,3 +26,4 @@ The explanation o the code
 Here we use import urllib2 to get the current share value of symbol NASDAQ by using a function get_val.Now we open the url lin and read it to get the current sharevalue and print it.
 '_main_' is used to check weather in the command line input only one input symbol  is given or more than one.If it exceed two includin the  ./shareval.py then it will exit else it will print the current sharevalue of the symbol
 
+the link to the code is https://github.com/supriyasaha/hometaskrepo/blob/master/sharevalue/shareval.py
