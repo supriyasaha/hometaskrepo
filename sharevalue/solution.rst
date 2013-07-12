@@ -1,11 +1,17 @@
 CODE TO THE PROGRAM
 --------------------
 
+
+.. code:: python
+
 #!/usr/bin/env python
+
 import urllib2
 import sys
 
 def get_value(nasdaq): #to get the share value of nasdaq
+
+this function will get the share value of nasdaq
 
         url='http://download.finance.yahoo.com/d/quotes.csv?s=%s&f=l1' % (nasdaq) #this the url of the nasdaq syambol extracted from yahho.finance
         con=urllib2.urlopen(url) #to open the url
