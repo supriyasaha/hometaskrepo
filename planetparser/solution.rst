@@ -13,7 +13,7 @@ step
   (virt1)$  
 
 The code is about printing the title and the author name of each blog post from the blog site 'http://planet.fedoraproject.org'
-------------------------------------------------------------------------------------------------------------------------------
+
 
 now if we run the file using ./b.py we output
 
