@@ -2,31 +2,32 @@
 
 Now to work in a virtual environment we use
 
-.. code:: steps
+step
+----
       [supriya@localhost] ~ $  cd virtual
+
   virtual $  source virt1/bin/activate
+
  (virt1) $  vim b.py
+
   (virt1)$  
 
 The code is about printing the title and the author name of each blog post from the blog site 'http://planet.fedoraproject.org'
+------------------------------------------------------------------------------------------------------------------------------
 
 now if we run the file using ./b.py we output
 
 (virt1)$ ./b.py
 
-.. code:: output
+output:
+--------
+
       title: CatN | CentOS Dojo 
- author: Richard W.M. Jones
+author: Richard W.M. Jones
+
  title: Daily log July 11th 2013 
  author: Dave Jones
- title: In memoriam 
- author: Konstantin Ryabitsev
- title: Change maximum file upload size in ownCloud 
- author: Bruno Martins
- title: pasting from dracut - or just with curl 
- author: Fabian Deutsch
- title: Lo que me gusto de Fedora 19 
- author: Henry Anchante-PE
+
   ........
 
 
@@ -34,6 +35,7 @@ now if we run the file using ./b.py we output
 Code of the program
 
 .. code:: python
+
       #!/usr/bin/env python
  from bs4 import BeautifulSoup
  import requests
