@@ -22,13 +22,11 @@ now if we run the file using ./b.py we output
 output:
 --------
 
-      title: CatN | CentOS Dojo 
-author: Richard W.M. Jones
+  title: CatN | CentOS Dojo 
+ author: Richard W.M. Jones
 
  title: Daily log July 11th 2013 
  author: Dave Jones
-
-  ........
 
 
 
@@ -36,7 +34,7 @@ Code of the program
 
 .. code:: python
 
-      #!/usr/bin/env python
+ #!/usr/bin/env python
  from bs4 import BeautifulSoup
  import requests
  import urllib2
@@ -62,3 +60,5 @@ Code of the program
 
 
 the link to the code is: https://github.com/supriyasaha/hometaskrepo/blob/master/planetparser/planetparser.py
+
+
